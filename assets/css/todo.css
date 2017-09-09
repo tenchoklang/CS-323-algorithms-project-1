@@ -1,0 +1,111 @@
+
+
+li
+{
+	list-style-type: none;
+	width: 100%;
+	height: 10%;
+	text-align: left;
+	background-color: white;
+	line-height: 30px;
+}
+
+
+input{
+	width: 100%;
+	height: 40px;
+	border-style: none;
+	background-color: white;
+	box-shadow: 0 0 2px rgba(0,0,0,0.1);
+	font-size: 20px;
+	letter-spacing: 1px;
+	font-family: sans-serif;
+	border-radius: 25px;
+	font-weight: normal;
+	box-sizing: border-box;
+	padding-left: 3%;
+}
+
+input:focus{
+	color: steelblue;
+	border: 1px solid steelblue;
+	border-radius: 25px;
+	outline: none;
+}
+
+hr{
+	margin: 0;
+	color: black;
+}
+
+span{
+	background-color: #e74c3c;
+	height: 100%;
+	margin-right: 7px;
+	text-align: center;
+	color: white;
+	width: 0;
+	display: inline-block;
+	transition: all 0.3s;
+}
+
+li:hover span{
+	width: 40px;
+	transition: all 0.3s;
+}
+
+
+.fa-caret-up{
+	float: right;
+	margin-right: 5%;
+}
+
+.fa-plus{
+	float: right;
+	margin-right: 5%;
+}
+
+.fa-trash{
+	color: white;
+}
+
+.fa-check{
+	float: right;
+	color:green;
+	margin-right: 15px;
+	margin-top: 6px;
+}
+
+.checkMark{
+	visibility: hidden;
+}
+
+
+
+.strike{
+	text-decoration: line-through;
+	color: gray;
+}
+
+
+
+.title{
+	background-color: steelblue;
+	width: 97%;
+	height: 15%;
+	margin-bottom: 0%;
+	font-family: sans-serif;
+	color:white;
+	padding-top: 9px;
+	text-align: left;
+	padding-left: 3%;
+	font-weight: normal;
+}
+
+#container{
+	background-color: #f7f7f7;
+	width: 300px;
+	text-align: center;
+	margin:100px auto ;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
